@@ -1,7 +1,7 @@
-Всем привет! 
-Это простая мультиплеер игра Камень,Ножницы,Бумага реализованная на языке Java, используя ServerSocker, Socket. 
-Для ее запуска требуется запустить Server.java
-Далее два участника могут подключится используя telnet, порт 12345 и ввести свое имя.
-Правила игры очень просты:
-  1) Нужно ввести в коммандую строку R(Камень), P(Бумага) или S(Ножницы), и ждать пока ваш опоннент сделает тоже самое.
-  2) Сервер определит победителя и закроет сессию, если у вас ничья - то вы продолжите играть.
+Hi all!
+This is a simple multiplayer Rock, Paper, Scissors game implemented in Java using ServerSocker, Socket.
+To run it you need to run Server.java
+Next, two participants can connect using telnet, port 12345 and enter their name.
+The rules of the game are very simple:
+  1) You need to enter R (Rock), P (Paper) or S (Scissors) into the command line, and wait until your opponent does the same.
+  2) The server will determine the winner and close the session, if you have a draw, then you will continue to play.
